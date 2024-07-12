@@ -1,5 +1,5 @@
 {
-  "name": "proyecto-integrador",
+  "name": "conexion_bd",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
@@ -15,5 +15,7 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Conectar de la pagina web con la base de datos, almacenando los datos proporcionado por un formulario",
+  "devDependencies": {},
+  "keywords": []
 }

@@ -10,20 +10,16 @@ const express = require("express");
 
  server.set('views', path.join(__dirname, 'views'));
  server.set("view engine", "ejs")
-
  server.use(express.static(path.join(__dirname, 'public')));
-
-
  server.use(express.static(path.join(__dirname, 'app')));
 
 
-
-
+// Coneccion con la base de datos
  const db= require("mysql2");
  const conn=db.createConnection({
  host: "localhost",
- user: "root",
- password: "juanito1",
+ user: "",          // Remplazar con tu nombre de usuario
+ password: "",  // Remplazar con tu contraseña
  database: "Vet2care",
  port: 3306,
  });
